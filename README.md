@@ -22,7 +22,8 @@ Assumes SD Card for boot and storing pics/vids.
 Requires separate download of Xilinx XAPP1017 from the Xilinx website as you must agree separately 
 to the terms of use of the design license agreement for the application.
 
-Once downloaded, add the serdes_1_to_10_idelay_ddr.v file to the project and modify line 419 to:
+Once downloaded, add the delay_controller_wrap.v and serdes_1_to_10_idelay_ddr.v file to the Verilog_macros folder before running the tcl script. Modify line 419 of serdes_1_to_10_idelay_ddr to:
+
 assign rx_data[10*i+j] = dataout[10*i+9-j] ; //EDITED TO GIVE REVERSE BIT ORDER
 
 Open Vivado, cd to the directory containing these files and run "source HFRC.tcl" in the tcl command window.
