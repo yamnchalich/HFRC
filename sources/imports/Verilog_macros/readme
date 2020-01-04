@@ -1,0 +1,7 @@
+Add the XAPP1017 files:
+
+delay_controller_wrap.v
+
+serdes_1_to_10_idelay_drr.v
+
+before running the tcl script.
