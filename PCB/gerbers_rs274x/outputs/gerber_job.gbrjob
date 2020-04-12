@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.7.0*%
+%TF.CreationDate,2018-03-21T21:55:15Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Yamn Chalich <chalichy@mcmaster.ca>*%
+%TJ.B_ID,HFRC_PYTHON1300*%
+%TJ.B_LayerNum,4*%
+%TJ.B_Thickness,1.620000*%
+%TJ.B_Size_X,69.000000*%
+%TJ.B_Size_Y,76.500000*%
+M02*
